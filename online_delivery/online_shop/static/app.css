@@ -1,0 +1,1057 @@
+/* Android Large - 4 */
+
+position: relative;
+width: 360px;
+height: 800px;
+
+background: rgba(152, 9, 35, 0.81);
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 309px;
+height: 216px;
+left: 115px;
+top: -127px;
+
+background: #470606;
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 270.08px;
+height: 227.98px;
+left: 101px;
+top: -151.99px;
+
+background: #620F1E;
+
+
+/* The Delivery App */
+
+position: absolute;
+width: 86px;
+height: 72px;
+left: 137px;
+top: 126px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 266px;
+height: 248px;
+left: 47px;
+top: 248px;
+
+background: url(pexels-ivan-babydov-7788316);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Door step and work place delivery for food */
+
+position: absolute;
+width: 304px;
+height: 58px;
+left: 28px;
+top: 546px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 153px;
+top: 640px;
+
+background: #FEFEFE;
+mix-blend-mode: normal;
+opacity: 0.15;
+
+
+/* Ellipse 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 201px;
+top: 639px;
+
+background: #000000;
+mix-blend-mode: normal;
+opacity: 0.15;
+border: 87px solid #000000;
+
+
+/* Android Large - 3 */
+
+position: relative;
+width: 360px;
+height: 1005px;
+
+background: rgba(152, 9, 35, 0.81);
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 80px;
+height: 77.91px;
+left: 28px;
+top: 260px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 80px;
+height: 77.91px;
+left: 139px;
+top: 260px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 304px;
+height: 56px;
+left: 19px;
+top: 426px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Name */
+
+position: absolute;
+width: 45px;
+height: 19px;
+left: 29px;
+top: 402px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 304px;
+height: 56px;
+left: 19px;
+top: 615px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 177px;
+height: 56px;
+left: 70px;
+top: 699px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 99.99%, rgba(255, 255, 255, 0.1) 100%);
+box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Password */
+
+position: absolute;
+width: 75px;
+height: 19px;
+left: 29px;
+top: 591px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 304px;
+height: 56px;
+left: 19px;
+top: 518px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Email */
+
+position: absolute;
+width: 41px;
+height: 19px;
+left: 29px;
+top: 499px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* facebook-alt-svgrepo-com 1 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 148px;
+top: 274px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 42.92%;
+right: 17.5%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #0F1762;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 309px;
+height: 216px;
+left: 115px;
+top: -127px;
+
+background: #470606;
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 270.08px;
+height: 227.98px;
+left: 101px;
+top: -151.99px;
+
+background: #620F1E;
+
+
+/* Welcome Back */
+
+position: absolute;
+width: 292px;
+height: 48px;
+left: 19px;
+top: 129px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+
+/* Sign in with */
+
+position: absolute;
+width: 111px;
+height: 24px;
+left: 19px;
+top: 187px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* google-color-svgrepo-com 1 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 50px;
+top: 279px;
+
+
+
+/* Icons */
+
+position: absolute;
+left: 1.49%;
+right: 2.82%;
+top: 1.11%;
+bottom: 1.11%;
+
+
+
+/* Color- */
+
+position: absolute;
+left: 1.49%;
+right: 2.82%;
+top: 1.11%;
+bottom: 1.11%;
+
+
+
+/* Google */
+
+position: absolute;
+left: 1.49%;
+right: 2.82%;
+top: 1.11%;
+bottom: 1.11%;
+
+
+
+/* Fill-1 */
+
+position: absolute;
+left: 1.49%;
+right: 77.02%;
+top: 28.34%;
+bottom: 28.36%;
+
+background: #FBBC05;
+
+
+/* Fill-2 */
+
+position: absolute;
+left: 6.51%;
+right: 17.29%;
+top: 1.11%;
+bottom: 59.08%;
+
+background: #EB4335;
+
+
+/* Fill-3 */
+
+position: absolute;
+left: 6.51%;
+right: 17.66%;
+top: 59.08%;
+bottom: 1.11%;
+
+background: #34A853;
+
+
+/* Fill-4 */
+
+position: absolute;
+left: 50.45%;
+right: 2.82%;
+top: 41.11%;
+bottom: 13.3%;
+
+background: #4285F4;
+
+
+/* or */
+
+position: absolute;
+width: 20px;
+height: 24px;
+left: 28px;
+top: 364px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Sign In */
+
+position: absolute;
+width: 105px;
+height: 39px;
+left: 99px;
+top: 707px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Do you have an account? */
+
+position: absolute;
+width: 179px;
+height: 18px;
+left: 18px;
+top: 806px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+
+
+/* Sign up */
+
+position: absolute;
+width: 55px;
+height: 18px;
+left: 204px;
+top: 806px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #34A853;
+
+
+
+/* The Delivery App */
+
+position: absolute;
+width: 86px;
+height: 72px;
+left: 16px;
+top: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Launch */
+
+position: relative;
+width: 360px;
+height: 800px;
+
+background: radial-gradient(50% 50% at 50% 50%, #37030C 0%, rgba(152, 9, 35, 0.81) 46.87%, #620F1E 100%);
+
+
+/* The Delivery App */
+
+position: absolute;
+width: 281px;
+height: 231px;
+left: 55px;
+top: 301px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 77px;
+
+color: #FEFEFE;
+
+
+
+/* Android Large - 1 */
+
+position: relative;
+width: 360px;
+height: 1005px;
+
+background: rgba(152, 9, 35, 0.81);
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 80px;
+height: 77.91px;
+left: 28px;
+top: 260px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 80px;
+height: 77.91px;
+left: 139px;
+top: 260px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 304px;
+height: 56px;
+left: 19px;
+top: 426px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Name */
+
+position: absolute;
+width: 45px;
+height: 19px;
+left: 29px;
+top: 402px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 304px;
+height: 56px;
+left: 19px;
+top: 615px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 177px;
+height: 56px;
+left: 70px;
+top: 699px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 99.99%, rgba(255, 255, 255, 0.1) 100%);
+box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Password */
+
+position: absolute;
+width: 75px;
+height: 19px;
+left: 29px;
+top: 591px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 304px;
+height: 56px;
+left: 19px;
+top: 518px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(39, 19, 19, 0.1) 0%, rgba(152, 9, 35, 0.081) 100%);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Email */
+
+position: absolute;
+width: 41px;
+height: 19px;
+left: 29px;
+top: 499px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* facebook-alt-svgrepo-com 1 */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 148px;
+top: 274px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 42.92%;
+right: 17.5%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #0F1762;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 309px;
+height: 216px;
+left: 115px;
+top: -127px;
+
+background: #470606;
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 270.08px;
+height: 227.98px;
+left: 101px;
+top: -151.99px;
+
+background: #620F1E;
+
+
+/* Sign Up */
+
+position: absolute;
+width: 152px;
+height: 48px;
+left: 19px;
+top: 129px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+
+/* Sign up with */
+
+position: absolute;
+width: 119px;
+height: 24px;
+left: 19px;
+top: 187px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* google-color-svgrepo-com 1 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 50px;
+top: 279px;
+
+
+
+/* Icons */
+
+position: absolute;
+left: 1.49%;
+right: 2.82%;
+top: 1.11%;
+bottom: 1.11%;
+
+
+
+/* Color- */
+
+position: absolute;
+left: 1.49%;
+right: 2.82%;
+top: 1.11%;
+bottom: 1.11%;
+
+
+
+/* Google */
+
+position: absolute;
+left: 1.49%;
+right: 2.82%;
+top: 1.11%;
+bottom: 1.11%;
+
+
+
+/* Fill-1 */
+
+position: absolute;
+left: 1.49%;
+right: 77.02%;
+top: 28.34%;
+bottom: 28.36%;
+
+background: #FBBC05;
+
+
+/* Fill-2 */
+
+position: absolute;
+left: 6.51%;
+right: 17.29%;
+top: 1.11%;
+bottom: 59.08%;
+
+background: #EB4335;
+
+
+/* Fill-3 */
+
+position: absolute;
+left: 6.51%;
+right: 17.66%;
+top: 59.08%;
+bottom: 1.11%;
+
+background: #34A853;
+
+
+/* Fill-4 */
+
+position: absolute;
+left: 50.45%;
+right: 2.82%;
+top: 41.11%;
+bottom: 13.3%;
+
+background: #4285F4;
+
+
+/* or */
+
+position: absolute;
+width: 20px;
+height: 24px;
+left: 28px;
+top: 364px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Sign Up */
+
+position: absolute;
+width: 121px;
+height: 39px;
+left: 99px;
+top: 707px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Do you have an account? */
+
+position: absolute;
+width: 179px;
+height: 18px;
+left: 18px;
+top: 806px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+
+
+/* Sign in */
+
+position: absolute;
+width: 49px;
+height: 18px;
+left: 204px;
+top: 806px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #34A853;
+
+
+
+/* The Delivery App */
+
+position: absolute;
+width: 86px;
+height: 72px;
+left: 19px;
+top: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Android Large - 5 */
+
+position: relative;
+width: 360px;
+height: 800px;
+
+background: rgba(152, 9, 35, 0.81);
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 309px;
+height: 216px;
+left: 115px;
+top: -127px;
+
+background: #470606;
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 270.08px;
+height: 227.98px;
+left: 101px;
+top: -151.99px;
+
+background: #620F1E;
+
+
+/* The Delivery App */
+
+position: absolute;
+width: 86px;
+height: 72px;
+left: 137px;
+top: 126px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 266px;
+height: 248px;
+left: 47px;
+top: 248px;
+
+background: url(pexels-artem-podrez-8988461.jpg);
+box-shadow: 0px 4px 4px 6px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+
+/* Door step and work place delivery for items */
+
+position: absolute;
+width: 304px;
+height: 58px;
+left: 28px;
+top: 546px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 209.27px;
+top: 665.97px;
+
+background: #FEFEFE;
+mix-blend-mode: normal;
+opacity: 0.15;
+transform: rotate(178.28deg);
+
+
+/* Ellipse 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 168.32px;
+top: 667.42px;
+
+background: #000000;
+mix-blend-mode: normal;
+opacity: 0.15;
+border: 87px solid #000000;
+transform: rotate(178.28deg);

@@ -1,0 +1,141 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="portal-container" />
+            <item index="1" class="java.lang.String" itemvalue="employee.gender" />
+            <item index="2" class="java.lang.String" itemvalue="{%" />
+            <item index="3" class="java.lang.String" itemvalue="if" />
+            <item index="4" class="java.lang.String" itemvalue="%}selected" />
+            <item index="5" class="java.lang.String" itemvalue="endif" />
+            <item index="6" class="java.lang.String" itemvalue="%}" />
+            <item index="7" class="java.lang.String" itemvalue="container-fluid" />
+            <item index="8" class="java.lang.String" itemvalue="fixed-bottom" />
+            <item index="9" class="java.lang.String" itemvalue="block" />
+            <item index="10" class="java.lang.String" itemvalue="body" />
+            <item index="11" class="java.lang.String" itemvalue="%}selected{%" />
+            <item index="12" class="java.lang.String" itemvalue="month" />
+            <item index="13" class="java.lang.String" itemvalue="table-center" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="28">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="ta" />
+            <item index="7" class="java.lang.String" itemvalue="div" />
+            <item index="8" class="java.lang.String" itemvalue="style" />
+            <item index="9" class="java.lang.String" itemvalue="h1" />
+            <item index="10" class="java.lang.String" itemvalue="a" />
+            <item index="11" class="java.lang.String" itemvalue="td" />
+            <item index="12" class="java.lang.String" itemvalue="br" />
+            <item index="13" class="java.lang.String" itemvalue="table" />
+            <item index="14" class="java.lang.String" itemvalue="thead" />
+            <item index="15" class="java.lang.String" itemvalue="tr" />
+            <item index="16" class="java.lang.String" itemvalue="title" />
+            <item index="17" class="java.lang.String" itemvalue="ul" />
+            <item index="18" class="java.lang.String" itemvalue="li" />
+            <item index="19" class="java.lang.String" itemvalue="option" />
+            <item index="20" class="java.lang.String" itemvalue="p" />
+            <item index="21" class="java.lang.String" itemvalue="form" />
+            <item index="22" class="java.lang.String" itemvalue="h2" />
+            <item index="23" class="java.lang.String" itemvalue="body" />
+            <item index="24" class="java.lang.String" itemvalue="html" />
+            <item index="25" class="java.lang.String" itemvalue="h3" />
+            <item index="26" class="java.lang.String" itemvalue="hr" />
+            <item index="27" class="java.lang.String" itemvalue="th" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="28">
+            <item index="0" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="1" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="2" class="java.lang.String" itemvalue="django-storages" />
+            <item index="3" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="4" class="java.lang.String" itemvalue="requests" />
+            <item index="5" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="6" class="java.lang.String" itemvalue="appdirs" />
+            <item index="7" class="java.lang.String" itemvalue="django-favicon" />
+            <item index="8" class="java.lang.String" itemvalue="docutils" />
+            <item index="9" class="java.lang.String" itemvalue="itsdangerous" />
+            <item index="10" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="11" class="java.lang.String" itemvalue="dj-database-url" />
+            <item index="12" class="java.lang.String" itemvalue="six" />
+            <item index="13" class="java.lang.String" itemvalue="botocore" />
+            <item index="14" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="15" class="java.lang.String" itemvalue="django-session-security" />
+            <item index="16" class="java.lang.String" itemvalue="leveldb" />
+            <item index="17" class="java.lang.String" itemvalue="packaging" />
+            <item index="18" class="java.lang.String" itemvalue="whitenoise" />
+            <item index="19" class="java.lang.String" itemvalue="futures" />
+            <item index="20" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="21" class="java.lang.String" itemvalue="click" />
+            <item index="22" class="java.lang.String" itemvalue="jmespath" />
+            <item index="23" class="java.lang.String" itemvalue="boto3" />
+            <item index="24" class="java.lang.String" itemvalue="s3transfer" />
+            <item index="25" class="java.lang.String" itemvalue="Django" />
+            <item index="26" class="java.lang.String" itemvalue="olefile" />
+            <item index="27" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="round" />
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django_heroku" />
+          <option value="crux.crux.settings.insecure" />
+          <option value="str.__sub__" />
+          <option value="int.__getitem__" />
+          <option value="int.contains" />
+          <option value="farmbook.mogoon.views.amount" />
+          <option value="django.contrib.admin.models.DateTimeField" />
+          <option value="django.contrib.admin.models.DecimalField" />
+          <option value="django.contrib.admin.models.IntegerField" />
+          <option value="datetime.date.today" />
+          <option value="plucking_scheme.calculate_payday.public_holidays" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
