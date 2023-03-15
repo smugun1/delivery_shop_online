@@ -1,0 +1,117 @@
+{% extends 'online_shop/base.html' %}
+{% load static %}
+
+{% block title %}Product View{% endblock %}
+
+{% block content %}
+
+<div class="container mt-2 mb-3">
+  <div class="row">
+    <div class="col-lg-6">
+      <img src="/media/{{product.image}}" alt="product image" class="img-fluid">
+    </div>
+    <div class="col-lg-6">
+      <a href="{% url 'product_view' id=product.id %}">View Product</a>
+      <h1>{{product.name}}</h1>
+      <h3>₹{{product.price}}</h3>
+      <hr>
+      <h4>Product Description</h4>
+      <p>{{product.description}}</p>
+      <hr>
+      {% if feature %}
+      <h4>Features</h4>
+      <ul>
+        {% for feature in feature %}
+        <li>{{ feature.name }} - {{ feature.value }}</li>
+        {% endfor %}
+      </ul>
+      <hr>
+      {% endif %}
+      <form method="POST">
+        {% csrf_token %}
+        <h4>Add Review</h4>
+        <textarea name="content" class="form-control mb-2" placeholder="Write your review here..." required></textarea>
+        <button class="btn btn-primary" type="submit">Submit Review</button>
+      </form>
+      <hr>
+      {% if reviews %}
+      <h4>Reviews</h4>
+      {% for review in reviews %}
+      <div class="card mb-2">
+        <div class="card-header">
+          <h5>{{ review.customer.user.username }}</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">{{ review.content }}</p>
+        </div>
+      </div>
+      {% endfor %}
+      {% else %}
+      <p>No reviews yet.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<div class="container mt-2 mb-3">
+  <div class="row">
+    {% for product in products %}
+    <div class="col-lg-4 my-4">
+      <div class="card shadow align-items-center" style="width: 20rem; height: 25rem;">
+        <img src="/media/{{product.image}}" class="card-img-top" style="width: 170px; height: 260px;" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{product.name}}</h5>
+          <hr>
+          {% if request.user.is_authenticated %}
+          <button data-product="{{product.id}}" data-action="add" class="btn add-btn update-cart"
+            style="background-color: #8c5d4f; color: white;">Add To Cart</button>
+          <a href="{% url 'product_view' id=product.id %}" class="btn btn-outline-secondary">View</a>
+          {% else %}
+          <button class="btn" style="background-color: #8c5d4f; color: white;">Login to add the item</button>
+          {% endif %}
+          <h4 style="display: inline-block; float: right;">&nbsp;₹{{product.price}}</h4>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+<style>
+
+</style>
+</head>
+<body>
+<div class="container mt-2 mb-3">
+  <div class="row">
+    {% for product in products %}
+    <div class="col-lg-4 my-4">
+      <div class="card shadow align-items-center" style="width: 20rem; height: 25rem;">
+        <img src="/media/{{product.image}}" class="card-img-top" style="width: 170px; height: 260px;" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{product.name}}</h5>
+          <hr>
+          {% if request.user.is_authenticated %}
+          <button data-product="{{product.id}}" data-action="add" class="btn add-btn update-cart"
+            style="background-color: #8c5d4f; color: white;">Add To Cart</button>
+          <a href="/product_view/{{product.id}}/" class="btn btn-outline-secondary">View</a>
+          {% else %}
+          <button class="btn" style="background-color: #8c5d4f; color: white;">Login to add the item</button>
+          {% endif %}
+          <h4 style="display: inline-block; float: right;">&nbsp;₹{{product.price}}</h4>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+</body>
+</html>

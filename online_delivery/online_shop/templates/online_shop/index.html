@@ -5,69 +5,35 @@
 
 {% block content %}
 
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>index</title>
-  <link rel="stylesheet" href="{% static 'css/app.css' %}">
-<style>
-  /* Launch */
-
-position: relative;
-width: 360px;
-height: 800px;
-
-background: radial-gradient(50% 50% at 50% 50%, #37030C 0%, rgba(152, 9, 35, 0.81) 46.87%, #620F1E 100%);
-
-
-/* The Delivery App */
-
-position: absolute;
-width: 281px;
-height: 231px;
-left: 55px;
-top: 301px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 64px;
-line-height: 77px;
-
-color: #FEFEFE;
-
-
-</style>
+    <title>Online Shop</title>
 </head>
 <body>
-<div class="container mt-2 mb-3">
+<h1>Welcome to the Online Shop</h1>
 
-  <div class="row">
-    {% for product in products %}
-    <div class="col-lg-4 my-4">
-      <div class="card shadow align-items-center" style="width: 20rem; height: 25rem;">
-        <img src="/media/{{product.image}}" class="card-img-top" style="width: 170px; height: 260px;" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">{{product.name}}</h5>
-          <hr>
-          {% if request.user.is_authenticated %}
-          <button data-product="{{product.id}}" data-action="add" class="btn add-btn update-cart"
-            style="background-color: #8c5d4f; color: white;">Add To Cart</button>
-          <a href="/product_view/{{product.id}}/" class="btn btn-outline-secondary">View</a>
-          {% else %}
-          <button class="btn" style="background-color: #8c5d4f; color: white;">Login to add the item</button>
-          {% endif %}
-          <h4 style="display: inline-block; float: right;">&nbsp;₹{{product.price}}</h4>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+
+<h2>Our Products</h2>
+
+<ul>
+
+    <li>{{ product.name }} - ${{ product.price }} - {{ product.description }}</li>
+
+</ul>
+
+<p>No products available.</p>
+
+
+<p>Cart Items: {{ cart_items }}</p>
+
+
+<p>Order ID: {{ order.id }}</p>
+
 
 </body>
 </html>
+
+
 {% endblock %}
 
 
